@@ -9,8 +9,9 @@ function Header(){
                 <h1>Jestem Maciej</h1>
                 <span>Junior FrontEnd Developer</span>
             </div>
+                <button className="contactMe-button">Współpraca</button>
             <div className="header-img">
-                <img src="" />
+                <img></img>
             </div>
         </div>
     )
