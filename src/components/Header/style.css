@@ -5,14 +5,14 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .header-text{
     width: 60%;
     box-sizing: border-box;
     padding: 7.5%;
-    
+    padding-top: 0;
     position: relative;
 
     display: flex;
@@ -62,10 +62,12 @@
     border-radius: 50px;
     font-size: 1.5vw;
     background-color: #5F59F7;
+    color:white;
+
 
     position: absolute;
-    bottom:12%;
-    left:36%;
+    bottom: 0;
+    right: 12.5%;
 }
 .contactMe-button:hover{
     box-shadow: #5F59F7 0px 0px 15px;

@@ -8,8 +8,9 @@ function Header(){
                 <span>Hej!</span>
                 <h1>Jestem Maciej</h1>
                 <span>Junior FrontEnd Developer</span>
-            </div>
                 <button className="contactMe-button">Współpraca</button>
+            </div>
+                
             <div className="header-img">
                 <img></img>
             </div>
