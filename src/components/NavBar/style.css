@@ -1,0 +1,75 @@
+.navBar-container{
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+
+.pageIcon{
+    background-color: #343090;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+button{
+    min-width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border:none;
+    background-color: #343090;
+    color:white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover, .pageIcon:hover{
+    box-shadow: #343090 0px 0px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar-container{
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.72);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: unset;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+        gap: 0;
+
+    }
+    .pageIcon{
+        position: absolute;
+        top:25px;
+
+        width: 65px;
+        height: 65px;
+        font-size: 24px;
+    }
+    button{
+        width: 100%;
+        border-radius: 0;
+        height: 50px;
+        background-color: transparent;
+        color:#2e2e2e;
+        font-size: 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 10%;
+    }
+    button:hover{
+        box-shadow: unset;
+        background-color: #343090;
+        color:white;
+    }
+}
