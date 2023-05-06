@@ -4,6 +4,8 @@
     justify-content: right;
     align-items: center;
     gap: 30px;
+    transform: translateX(0%);
+
 }
 
 .pageIcon{
@@ -50,9 +52,12 @@
         border:none;
         background-color: transparent;
         color: rgb(0, 0, 0);
-        position: absolute;
         cursor: pointer;
         font-size: 35px;
+        
+        position: absolute;
+        top: 10px;
+        left: 10px;
     }
     .navBar-container{
         width: 50%;
@@ -63,6 +68,7 @@
         flex-direction: column;
         padding-top: 250px;
         min-height: 100vh;
+        transition: 0.3s;
         gap: 0;
 
 

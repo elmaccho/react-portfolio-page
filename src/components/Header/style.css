@@ -75,3 +75,46 @@
 .contactMe-button:hover{
     box-shadow: #5F59F7 0px 0px 15px;
 }
+
+
+@media screen and (max-width: 768px){
+    .header-container{
+        flex-direction: column-reverse;
+        gap: unset;
+        justify-content: center;
+        align-items: center;
+        padding: 90px 0;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .header-img img{
+        width: 75vw;
+        height: 75vw;
+    }
+    .header-text h1{
+        font-size: 12vw;
+    }
+    .header-text{
+        padding: 0 7.5%;
+        width: 100%;
+    }
+    .header-text span:nth-child(1){
+        font-size: 5vw;
+        left: 4.5vw;
+    }
+    .header-text span:nth-child(3){
+        font-size: 5vw;
+        right: 5vw;
+        top: 1.5vw;
+        position: relative;
+    }
+    .contactMe-button{
+        position: relative;
+        top: 30px;
+        right: unset;
+        width: 45vw;
+        height: 18vw;
+        font-size: 5vw;
+    }
+}
