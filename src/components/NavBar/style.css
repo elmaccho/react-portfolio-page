@@ -20,7 +20,11 @@
     font-size: 20px;
 }
 
-button{
+.menuBtn{
+    display: none;
+}
+
+.containerBtns{
     min-width: 100px;
     height: 35px;
     border-radius: 8px;
@@ -32,7 +36,7 @@ button{
     font-weight: 600;
     transition: 0.3s;
 }
-button:hover{
+.containerBtns:hover{
     filter: drop-shadow(4px 4px 8px #2e2e2e8d);
 }
 
@@ -41,16 +45,30 @@ button:hover{
 }
 
 @media screen and (max-width: 768px) {
+    .menuBtn{
+        display: block;
+        border:none;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        cursor: pointer;
+        font-size: 35px;
+    }
     .navBar-container{
         width: 50%;
+        min-width: 140px;
         background-color: rgba(255, 255, 255, 0.72);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         padding: unset;
         flex-direction: column;
-        justify-content: center;
+        padding-top: 250px;
         min-height: 100vh;
         gap: 0;
 
+
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 1;
     }
     .pageIcon{
         position: absolute;
@@ -60,7 +78,7 @@ button:hover{
         height: 65px;
         font-size: 24px;
     }
-    button{
+    .containerBtns{
         width: 100%;
         border-radius: 0;
         height: 50px;
@@ -71,8 +89,9 @@ button:hover{
         justify-content: left;
         align-items: center;
         padding-left: 10%;
+        font-size: 3.5vw;
     }
-    button:hover{
+    .containerBtns:hover{
         box-shadow: unset;
         background-color: #5F59F7;
         filter: unset;
