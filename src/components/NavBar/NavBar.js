@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
+// const icon = <FontAwesomeIcon icon={faFacebook} />
 
 function NavBar(){
     return(
@@ -25,10 +26,6 @@ function NavBar(){
             <button className="containerBtns">
                 O mnie
             </button>
-
-            <a href="#links" className="pageIcon">
-                MC
-            </a>
         </div>
         </>
     )

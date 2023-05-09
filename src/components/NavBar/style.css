@@ -8,20 +8,6 @@
 
 }
 
-.pageIcon{
-    background-color: #5F59F7;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    transition: 0.3s;
-    font-size: 20px;
-}
-
 .menuBtn{
     display: none;
 }
@@ -29,78 +15,55 @@
 .containerBtns{
     min-width: 100px;
     height: 35px;
-    border-radius: 8px;
     border:none;
     background-color: transparent;
-    color:#2e2e2e;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: relative;
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
     transition: 0.3s;
 }
-.containerBtns:hover{
-    filter: drop-shadow(4px 4px 8px #2e2e2e8d);
+.containerBtns::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    top: 5px;
+    right: 5px;
+    background-color: #f7ba59;
+    z-index: -1;
 }
-
-.pageIcon:hover{
-    box-shadow: #5F59F7 0px 0px 15px;
+.containerBtns::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border: 1px solid black;
+    transition: 0.3s;
+    z-index: 1;
+}
+.containerBtns:hover::before{
+    top:0px;
+    right: 0px;
+}
+.containerBtns:hover::after{
+    top: 5px;
+    left: -8px;
 }
 
 @media screen and (max-width: 768px) {
-    .menuBtn{
-        display: block;
-        border:none;
-        background-color: transparent;
-        color: rgb(0, 0, 0);
-        cursor: pointer;
-        font-size: 35px;
-        
-        position: absolute;
-        top: 10px;
-        left: 10px;
-    }
-    .navBar-container{
-        width: 50%;
-        min-width: 140px;
-        background-color: rgba(255, 255, 255, 0.72);
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        padding: unset;
-        flex-direction: column;
-        padding-top: 250px;
-        min-height: 100vh;
-        transition: 0.3s;
-        gap: 0;
-
-
-        position: fixed;
-        transform: translateX(-100%);
-        z-index: 1;
-    }
-    .pageIcon{
-        position: absolute;
-        top:25px;
-
-        width: 65px;
-        height: 65px;
-        font-size: 24px;
-    }
     .containerBtns{
-        width: 100%;
-        border-radius: 0;
-        height: 50px;
-        background-color: transparent;
-        color:#2e2e2e;
-        font-size: 20px;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        padding-left: 10%;
-        font-size: 3.5vw;
-    }
-    .containerBtns:hover{
-        box-shadow: unset;
-        background-color: #5F59F7;
-        filter: unset;
-        color:white;
+        min-width: 80px;
+        width: 20%;
+        font-size: 2.7vw;
+        padding: unset;
     }
 }
