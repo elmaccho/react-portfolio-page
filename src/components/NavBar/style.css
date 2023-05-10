@@ -104,6 +104,7 @@
     z-index: 1;
     color: white;
     cursor: pointer;
+    transition: 0.3s linear;
 }
 
 .menuClose{
@@ -112,10 +113,9 @@
     top:10px;
     right: 10px;
     left: unset;
-    transition: 0.3s linear;
 }
-.menuClose:hover{
-    opacity: 75%;
+.menuClose:hover, .menuOpen:hover{
+    opacity: 70%;
 }
 
 .faBarsIcon{
