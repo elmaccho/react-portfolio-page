@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 // const icon = <FontAwesomeIcon icon={faFacebook} />
@@ -10,22 +10,34 @@ function NavBar(){
     return(
         <>
         
-        <button className="menuBtn">
-            <FontAwesomeIcon icon={faBars} />
-        </button>
+
         
         <div className="navBar-container">
-            <button className="containerBtns">
-                Kontakt
-            </button>
 
-            <button className="containerBtns">
-                Umiejętności
-            </button>
+            <div className="socialLinks">
+                <a href="https://github.com/elmaccho" target="_blank" className="socialsBtn">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
 
-            <button className="containerBtns">
-                O mnie
-            </button>
+                <a href="https://www.facebook.com/eeeeeeee1234567890" target="_blank" className="socialsBtn">
+                    <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+            </div>
+
+            <div className="navBtns">
+                <button className="containerBtns">
+                    Kontakt
+                </button>
+
+                <button className="containerBtns">
+                    Umiejętności
+                </button>
+
+                <button className="containerBtns">
+                    O mnie
+                </button>
+            </div>
+
         </div>
         </>
     )

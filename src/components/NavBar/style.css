@@ -1,15 +1,49 @@
 .navBar-container{
     padding: 15px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
     transform: translateX(0%);
-
 }
 
-.menuBtn{
-    display: none;
+.socialsBtn{
+    font-size: 35px;
+
+    border-radius: 50px;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+
+    background-color: #f7ba59;
+    color:white;
+}
+
+.socialsBtn:hover{
+    color:#f7ba59;
+    background-color: white;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: row;
+
+    gap: 25px;
+}
+
+.navBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
 }
 
 .containerBtns{
@@ -33,11 +67,11 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    transition: 0.3s;
     top: 5px;
     right: 5px;
     background-color: #f7ba59;
     z-index: -1;
+    transition: 0.3s linear;
 }
 .containerBtns::after{
     content: "";
@@ -47,7 +81,7 @@
     top: 0px;
     left: 0px;
     border: 1px solid black;
-    transition: 0.3s;
+    transition: 0.3s linear;
     z-index: 1;
 }
 .containerBtns:hover::before{
