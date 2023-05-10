@@ -95,13 +95,13 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
     .header-container{
         flex-direction: column-reverse;
         gap: unset;
         justify-content: center;
         align-items: center;
-        padding: 90px 0;
+        padding: 60px 0;
     }
     .header-img{
         width: 100%;
