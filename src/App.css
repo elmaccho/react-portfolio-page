@@ -1,6 +1,6 @@
 .App{
     /* background-image: url(./background.png);*/
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover; 
     min-height: 100vh; 
 

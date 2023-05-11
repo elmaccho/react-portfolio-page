@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 3% 0;
+    padding: 5% 0;
 }
 
 .header-text{
@@ -21,7 +21,7 @@
     align-items: center;
 }
 .header-text h1{
-    font-size: 7vw;
+    font-size: 6.9vw;
     height: 9vw;
     margin:0;
     display: flex;
@@ -34,7 +34,7 @@
     color: rgb(54, 54, 54);
     margin-right: auto;
     position: relative;
-    top: 1.5vw;
+    top: 2.5vw;
 }
 .header-text span:nth-child(3){
     font-size: 2.2vw;
