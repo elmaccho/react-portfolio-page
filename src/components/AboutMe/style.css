@@ -119,14 +119,15 @@
 .skillBar-bar-title{
     position: absolute;
     left:10px;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .skillBar-counter{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    right: -35px;
+    right: -4vw;
+    font-size: 1.5vw;
 }
 
 
@@ -175,6 +176,19 @@
         border-radius: 10px 0 0 10px;
         transform:translateX(200%) scale(1.5);
         padding-right: 12vw;
+    }
+    .skillBar-bar-title{
+        position: absolute;
+        left:10px;
+        font-size: 1.8vw;
+    }
+    
+    .skillBar-counter{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        right: -7vw;
+        font-size: 3vw;
     }
 
     @keyframes toggleSkill{
