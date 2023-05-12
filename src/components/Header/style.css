@@ -77,8 +77,8 @@
     content: "";
     /* border: 1px solid #f7ba59; */
     box-shadow: 0px 0px 25px 10px #f7ba59;
-    width: 80%;
-    height: 50%;
+    width: 60%;
+    height: 30%;
     position: absolute;
     top:50%;
     left: 50%;
@@ -134,5 +134,9 @@
         width: 45vw;
         height: 18vw;
         font-size: 5vw;
+    }
+    .contactMe-button::after{
+        width: 75%;
+        height: 30%;
     }
 }
