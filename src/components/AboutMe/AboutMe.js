@@ -62,7 +62,7 @@ function AboutMe(){
                             <div className="skillBar-counter">75%</div>
 
                         </div>
-                        
+
                         <div className="skillBar-container">
 
                             <div className="skillBar-bar">
@@ -73,8 +73,9 @@ function AboutMe(){
 
                         </div>
 
-
                     </div>
+
+                    <button className="cvBtn">Pobierz CV</button>
                 </div>
             </div>
         
