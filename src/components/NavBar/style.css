@@ -71,7 +71,7 @@
     right: 5px;
     background-color: #f7ba59;
     z-index: -1;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 }
 .containerBtns::after{
     content: "";
@@ -81,7 +81,7 @@
     top: 0px;
     left: 0px;
     border: 1px solid black;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
     z-index: 1;
 }
 .containerBtns:hover::before{
@@ -98,7 +98,7 @@
     border:none;
     background-color: transparent;
     font-size: 40px;
-    position: absolute;
+    position: fixed;
     top:15px;
     left:15px;
     z-index: 1;
@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 768px){
     .navBar-container{
-        z-index: 1;
+        z-index: 2;
         flex-direction: column;
         justify-content: unset;
         display: flex;

@@ -134,8 +134,8 @@
 }
 
 .cvBtn{
-    min-width: 17vw;
-    height: 5vw;
+    min-width: 13vw;
+    height: 4vw;
     border:none;
     background-color: transparent;
     padding:20px;
@@ -145,9 +145,9 @@
     color: black;
     position: relative;
     cursor: pointer;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
     font-weight: 600;
-    transition: 0.3s;
+    transition: 0.1s;
     z-index: 1;
 }
 .cvBtn::before{
@@ -159,7 +159,7 @@
     right: 5px;
     background-color: #f7ba59;
     z-index: -1;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 }
 .cvBtn::after{
     content: "";
@@ -169,7 +169,7 @@
     top: 0px;
     left: 0px;
     border: 1px solid black;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
     z-index: 1;
 }
 .cvBtn:hover::before{
@@ -208,10 +208,12 @@
         width: 75vw;
         padding: unset;
         position: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .aboutMe-text-title{
         font-size: 10vw;
-        transform: translateX(50%);
         position: absolute;
         top: 0;
     }
@@ -239,6 +241,12 @@
         transform: translateY(-50%);
         right: -7vw;
         font-size: 3vw;
+    }
+
+    .cvBtn{
+        min-width: 35vw;
+        height: 10vw;
+        font-size: 3.5vw;
     }
 
     @keyframes toggleSkill{
