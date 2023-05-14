@@ -125,7 +125,10 @@ export function Project(){
 
                 </div>
 
-
+                <div className="blob">
+                    <li></li>
+                    <li></li>
+                </div>
             </div>
         </>
 

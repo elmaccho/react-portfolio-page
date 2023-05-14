@@ -7,12 +7,34 @@ import { Project } from './components/Projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar></NavBar>
-      <Header></Header>
-      <AboutMe></AboutMe>
-      <Project></Project>
-    </div>
+
+
+      <div className="App">
+        
+        <span className='blob'>
+          <li>
+              e
+          </li>
+          <li>
+              e
+          </li>
+          <li>
+              e
+          </li>
+
+        </span>
+
+
+        <NavBar></NavBar>
+        <Header></Header>
+        <AboutMe></AboutMe>
+        <Project></Project>
+
+
+
+      </div>
+
+
   );
 }
 
