@@ -11,7 +11,7 @@ function App() {
 
       <div className="App">
         
-        <span className='blob'>
+        <span className='blobApp'>
           <li></li>
           <li></li>
           <li></li>
