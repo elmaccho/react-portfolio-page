@@ -176,4 +176,15 @@
     .faIcon{
         font-size: 6vw;
     }
+
+    .projects-container .blob li:nth-child(1){
+        width: 80%;
+        height: 50%;
+        transform: translate(0%, 10%) rotateZ(70deg);
+    }
+    .projects-container .blob li:nth-child(2){
+        width: 80%;
+        height: 50%;
+        transform: translate(10%, 120%) ;
+    }
 }
