@@ -17,6 +17,7 @@ export function Project(){
                 <h1 className="projects-title">Projekty</h1>
 
                 <div className="projectBox-container">
+
                     <div className="projectBox">
                         <div className="projectBox-image">
                             <img src='../../images/inpostSS.png' alt=""/>
@@ -76,6 +77,7 @@ export function Project(){
                             
                         </div>
                     </div>
+                    
                 </div>
 
 
