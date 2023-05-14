@@ -16,14 +16,14 @@
 .projectBox-container{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 14vw;
+    gap: 10vw;
     padding-bottom: 50px;
 }
 
 .projectBox{
     width: 30vw;
     height: 30vw;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.578) 0px 3px 8px;
     background-color: white;
     border-radius: 30px;
@@ -42,9 +42,29 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.projectBox-container .projectBox:nth-child(1) .projectBox-image{
+    background-image: url('./images/inpostSS.jpg');
+    background-size: cover;
+}
+
+.projectBox-container .projectBox:nth-child(2) .projectBox-image{
+    background-image: url('./images/loginpage.png');
+    background-size: cover;
+}
+
+.projectBox-container .projectBox:nth-child(3) .projectBox-image{
+    background-image: url('./images/infinityscroll.png');
+    background-size: cover;
+}
+
+.projectBox-container .projectBox:nth-child(4) .projectBox-image{
+    background-image: url('./images/gorskimeble.png');
+    background-size: cover;
+}
+
+
 .projectBox-image img {
     width: 100%;
-    height: 100%;
 }
 
 .projectBox-text{
@@ -105,14 +125,14 @@
         align-items: center;
         flex-direction: column;
         
-        padding: 50px 0;
+        padding: 20px 0;
         width: 80%;
     }
     .projects-title{
-        font-size: 10vw;
+        font-size: 12vw;
     }
     .projectBox{
-        width: 60vw;
+        width: 80vw;
         height: 90vw;
     }
     .projectBox-text{
@@ -120,8 +140,8 @@
     }
     .seeMoreBox{
         margin-top: auto;
-        padding: 3vw 4.5vw;
-        font-size: 3vw;
+        padding: 4vw 7vw;
+        font-size: 4vw;
     }
     .faIcon{
         font-size: 6vw;
