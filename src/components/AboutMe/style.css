@@ -70,8 +70,13 @@
     transform: translateX(200%);
 }
 
-.activeBox{
-    animation-name: toggleSkill;
+.openBox{
+    animation-name: OpenSkill;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+.closeBox{
+    animation-name: CloseSkill;
     animation-duration: 0.7s;
     animation-fill-mode: forwards;
 }
@@ -181,7 +186,7 @@
     left: -8px;
 }
 
-@keyframes toggleSkill{
+@keyframes OpenSkill{
     0%{
         transform: translateX(200%);
     }
@@ -190,6 +195,18 @@
     }
     100%{
         transform: translateX(10%);
+    }
+}
+
+@keyframes CloseSkill{
+    0%{
+        transform: translateX(10%);
+    }
+    50%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(200%);
     }
 }
 

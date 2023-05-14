@@ -37,7 +37,7 @@ function AboutMe(){
                     Potrafię tworzyć responsywne projekty, które umożliwiają użytkownikom korzystanie ze strony na dowolnym urządzeniu.
                      Mimo braku doświadczenia komercyjnego, jestem w stanie samodzielnie pracować i rozwiązywać problemy.
                     </p>
-                    <div className={isHovered ? "skill-container activeBox" : "skill-container"}>
+                    <div className={isHovered ? "skill-container openBox" : "skill-container closeBox"}>
 
                         <div className="skillBar-container">
 
