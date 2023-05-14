@@ -1,5 +1,6 @@
 .projects-container{
     width: 100%;
+    padding: 50px 0;
     background-color: #4059ad;
 
     display: flex;
@@ -15,25 +16,114 @@
 .projectBox-container{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 50px;
+    gap: 14vw;
+    padding-bottom: 50px;
 }
 
 .projectBox{
     width: 30vw;
     height: 30vw;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.578) 0px 3px 8px;
     background-color: white;
     border-radius: 30px;
     overflow: hidden;
+    position: relative;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 .projectBox-image{
     width: 100%;
-    height: 50px;
-    border:1px solid black;
+    height: 60%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .projectBox-image img {
     width: 100%;
     height: 100%;
+}
+
+.projectBox-text{
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+
+.seeMoreBox{
+    background-color: #f7ba59;
+    margin-top: auto;
+    border-radius: 50px;
+    padding: 1.3vw 3vw;
+    font-size: 1.5vw;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    overflow: hidden;
+
+    /* position: absolute; */
+    /* bottom:25px; */
+    transition: 0.3s;
+}
+
+.seeMoreBox span{
+    transition: 0.3s;
+}
+
+.seeMoreBox:hover span{
+    transform: translateY(-10vw);
+}
+
+.seeMoreBox:hover .seeMoreContent{
+    transform: translateY(0vw);
+}
+
+.seeMoreContent{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    transform: translateY(10vw);
+    transition: 0.3s;
+}
+
+.faIcon{
+    font-size: 3vw;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .projectBox-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        padding: 50px 0;
+        width: 80%;
+    }
+    .projects-title{
+        font-size: 10vw;
+    }
+    .projectBox{
+        width: 60vw;
+        height: 90vw;
+    }
+    .projectBox-text{
+        font-size: 4.5vw;
+    }
+    .seeMoreBox{
+        margin-top: auto;
+        padding: 3vw 4.5vw;
+        font-size: 3vw;
+    }
+    .faIcon{
+        font-size: 6vw;
+    }
 }
