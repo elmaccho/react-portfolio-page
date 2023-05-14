@@ -92,9 +92,6 @@
     align-items: center;
     font-weight: 600;
     overflow: hidden;
-
-    /* position: absolute; */
-    /* bottom:25px; */
     transition: 0.3s;
 }
 

@@ -33,7 +33,7 @@ function AboutMe(){
                     <p className="aboutMe-info">
                     Jestem Maciej, 21-letni pasjonat programowania. 
                     Moja przygoda z Web Developmentem rozpoczęła się półtora roku temu. 
-                    W tym czasie zdobyłem wiele <span className={isHovered ? "skills" : 'skills'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>umiejętności</span> i rozwinąłem się w wielu językach i technologiach związanych z tworzeniem stron internetowych. 
+                    W tym czasie zdobyłem wiele <span className={isHovered ? "skills" : 'skills'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>umiejętności</span>, a także rozwinąłem się w wielu językach i technologiach związanych z tworzeniem stron internetowych. 
                     Potrafię tworzyć responsywne projekty, które umożliwiają użytkownikom korzystanie ze strony na dowolnym urządzeniu.
                      Mimo braku doświadczenia komercyjnego, jestem w stanie samodzielnie pracować i rozwiązywać problemy.
                     </p>
