@@ -61,6 +61,7 @@ function NavBar(){
                         spy={true}
                         smooth={true}
                         duration={500}
+                        onClick={toggleMenu} 
                         >
                         O mnie
                     </Link>
@@ -71,6 +72,7 @@ function NavBar(){
                         spy={true}
                         smooth={true}
                         duration={500}
+                        onClick={toggleMenu} 
                         >
                         Projekty
                     </Link>
@@ -81,6 +83,7 @@ function NavBar(){
                         spy={true}
                         smooth={true}
                         duration={500}
+                        onClick={toggleMenu} 
                     >
                         Kontakt
                     </Link>
