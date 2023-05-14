@@ -22,7 +22,7 @@ function AboutMe(){
 
     return (
         <>
-            <div id="AboutMe" className="aboutMe-container" data-Aos="fade-up">
+            <div id="AboutMe" className="aboutMe-container" data-Aos="fade-up" data-aos-offset="300">
                 <div className="aboutMe-img">
                     <img alt="zdjecia nie ma jeszcze"></img>
                 </div>
@@ -84,7 +84,6 @@ function AboutMe(){
                     <button className="cvBtn">Pobierz CV</button>
                 </div>
             </div>
-        
         </>
     )
 }
