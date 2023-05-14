@@ -34,6 +34,10 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    transition: 0.3s;
+}
+.projectBox:hover{
+    transform: scale(102%);
 }
 
 .projectBox-image{

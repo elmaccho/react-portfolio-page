@@ -7,10 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-import img1 from './images/inpostSS.jpg'
-import img2 from './images/infinityscroll.png'
-import img3 from './images/loginpage.png'
-import img4 from './images/gorskimeble.png'
+
 
 export function Project(){
 

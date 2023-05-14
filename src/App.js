@@ -12,16 +12,9 @@ function App() {
       <div className="App">
         
         <span className='blob'>
-          <li>
-              e
-          </li>
-          <li>
-              e
-          </li>
-          <li>
-              e
-          </li>
-
+          <li></li>
+          <li></li>
+          <li></li>
         </span>
 
 
