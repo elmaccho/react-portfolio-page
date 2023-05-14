@@ -1,7 +1,7 @@
 .aboutMe-container{
     width: 100%;
     padding: 125px 0;
-    margin-top: 185px;
+    margin-top: 50px;
 
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@
     transform: translateX(200%);
 }
 
-.active{
+.activeBox{
     animation-name: toggleSkill;
     animation-duration: 0.7s;
     animation-fill-mode: forwards;

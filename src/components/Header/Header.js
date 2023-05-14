@@ -1,9 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './style.css'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function Header(){
+    useEffect(()=>{
+        Aos.init({duration: 1000})
+    }, [])
+
     return(
-        <div className="header-container">
+        <div className="header-container"  data-AOS="fade-right">
             <div className="header-text">
                 <span>Hej!</span>
                 <h1>Jestem Maciej</h1>

@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './style.css'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function AboutMe(){
 
@@ -13,10 +15,14 @@ function AboutMe(){
         setIsHovered(false);
     }
 
+    useEffect(()=>{
+        Aos.init()
+    }, [])
+
 
     return (
         <>
-            <div className="aboutMe-container">
+            <div id="AboutMe" className="aboutMe-container" data-Aos="fade-up">
                 <div className="aboutMe-img">
                     <img alt="zdjecia nie ma jeszcze"></img>
                 </div>
@@ -31,7 +37,7 @@ function AboutMe(){
                     Potrafię tworzyć responsywne projekty, które umożliwiają użytkownikom korzystanie ze strony na dowolnym urządzeniu.
                      Mimo braku doświadczenia komercyjnego, jestem w stanie samodzielnie pracować i rozwiązywać problemy.
                     </p>
-                    <div className={isHovered ? "skill-container active" : "skill-container"}>
+                    <div className={isHovered ? "skill-container activeBox" : "skill-container"}>
 
                         <div className="skillBar-container">
 

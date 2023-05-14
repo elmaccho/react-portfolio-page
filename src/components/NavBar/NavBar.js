@@ -3,6 +3,7 @@ import './style.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 
 function NavBar(){
@@ -15,7 +16,7 @@ function NavBar(){
         setToggleState(!toggleState)
     }
 
-    useEffect( ()=> {
+    useEffect(()=> {
         function handleClickOutside(event){
             if (!menuRef.current.contains(event.target) && event.target !== buttonRef.current){
                 setToggleState(false)
@@ -27,6 +28,7 @@ function NavBar(){
             document.removeEventListener("click", handleClickOutside)
         }
     }, [])
+
 
 
 
@@ -52,17 +54,36 @@ function NavBar(){
                 </div>
 
                 <div className="navBtns">
-                    <button className="containerBtns">
-                        Kontakt
-                    </button>
 
-                    <button className="containerBtns">
-                        Umiejętności
-                    </button>
-
-                    <button className="containerBtns">
+                    <Link 
+                        className="containerBtns"
+                        to="AboutMe"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        >
                         O mnie
-                    </button>
+                    </Link>
+
+                    <Link 
+                        className="containerBtns"
+                        to="Projects"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        >
+                        Projekty
+                    </Link>
+
+                    <Link 
+                        className="containerBtns"
+                        to="Contact"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                    >
+                        Kontakt
+                    </Link>
                 </div>
                 
 

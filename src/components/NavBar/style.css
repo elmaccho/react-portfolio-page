@@ -48,10 +48,10 @@
 
 .containerBtns{
     min-width: 100px;
-    height: 35px;
+    height: 25px;
     border:none;
     background-color: transparent;
-    padding:20px;
+    padding:10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +123,14 @@
     pointer-events: none;
 }
 
+.active::before{
+    top:0px;
+    right: 0px;
+}
+.active::after{
+    top: 5px;
+    left: -8px;
+}
 
 @media screen and (max-width: 768px){
     .navBar-container{

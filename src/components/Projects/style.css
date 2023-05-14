@@ -1,0 +1,39 @@
+.projects-container{
+    width: 100%;
+    background-color: #4059ad;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-title{
+    font-size: 5vw;
+}
+
+.projectBox-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+
+.projectBox{
+    width: 30vw;
+    height: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.projectBox-image{
+    width: 100%;
+    height: 50px;
+    border:1px solid black;
+}
+
+.projectBox-image img {
+    width: 100%;
+    height: 100%;
+}
