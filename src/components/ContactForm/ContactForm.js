@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import './style.css'
 
 function ContactForm(){
+
+
+
     return(
         <div id="Contact" className="ContactForm-container">
             <h1 className="ContactForm-title">Kontakt</h1>
@@ -12,7 +15,7 @@ function ContactForm(){
                 </span>
                 <input type="email" placeholder="E-mail" required/>
                 <textarea placeholder="Wiadomość..." required></textarea>
-                    <span className="errorText"></span>
+                    <span className="errorText">Uzupelnij dane!</span>
                 <input type="submit" value="Prześlij"/>
             </form>
         </div>
