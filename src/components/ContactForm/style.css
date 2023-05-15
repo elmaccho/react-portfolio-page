@@ -38,10 +38,15 @@ form input,textarea{
     height: 45px;
     width: 80%;
     text-indent: 15px;
+    transition: 0.3s;
 
     border: 2px solid #4059ad;
     border-radius: 15px;
     outline: none;
+}
+
+form input:focus, textarea:focus{
+    border: 2px solid #f7ba59;
 }
 
 form textarea{
@@ -53,6 +58,7 @@ form textarea{
 
 form input[type="submit"]{
     text-indent: unset;
+    margin-top: 25px;
     width: 25%;
     height: 60px;
     font-size: 1.5vw;
@@ -60,8 +66,14 @@ form input[type="submit"]{
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.3s;
-
+    cursor: pointer;
     border-radius: 100px;
     border: none;
+
     background-color: #4059ad;
+    color: white;
+}
+form input[type="submit"]:hover{
+    background-color: #f7ba59;
+    color: black;
 }
