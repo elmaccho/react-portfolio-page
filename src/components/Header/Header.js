@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import './style.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import { Link } from "react-scroll";
 
 function Header(){
     useEffect(()=>{
@@ -14,7 +15,13 @@ function Header(){
                 <span>Hej!</span>
                 <h1>Jestem Maciej</h1>
                 <span>Junior FrontEnd Developer</span>
-                <button className="contactMe-button">Współpraca?</button>
+                <Link
+                    className="contactMe-button"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >Współpraca?</Link>
             </div>
                 
             <div className="header-img">

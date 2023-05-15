@@ -68,7 +68,9 @@
     cursor: pointer;
     color:rgb(6, 6, 6);
 
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     right: 12.5%;
@@ -77,10 +79,10 @@
     content: "";
     /* border: 1px solid #f7ba59; */
     box-shadow: 0px 0px 25px 10px #f7ba59;
-    width: 60%;
+    width: 64%;
     height: 30%;
     position: absolute;
-    top:50%;
+    top:54%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 100px;

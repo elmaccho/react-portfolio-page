@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import './style.css'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function ContactForm(){
 
-
+    useEffect(()=>{
+        Aos.init()
+    },[])
 
     return(
-        <div id="Contact" className="ContactForm-container">
+        <div id="Contact" className="ContactForm-container" data-Aos="fade-up">
             <h1 className="ContactForm-title">Kontakt</h1>
             <form>
                 <span>
