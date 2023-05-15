@@ -25,19 +25,19 @@ form{
 }
 
 form span{
-    width: 80.5%;
+    width: 60.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 form span input[type="text"]{
-    width: 70%;
+    width: 100%;
 }
 
 form input,textarea{
     height: 45px;
-    width: 80%;
+    width: 60%;
     text-indent: 15px;
     transition: 0.3s;
 
@@ -53,7 +53,6 @@ form input:focus, textarea:focus{
 form textarea{
     resize: none;
     height: 115px;
-    width: 80.1%;
     padding-top: 15px;
 }
 
