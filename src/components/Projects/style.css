@@ -2,6 +2,7 @@
     width: 100%;
     padding: 50px 0;
     background-color: #4059ad;
+    z-index: 1;
 
     display: flex;
     flex-direction: column;

@@ -18,6 +18,11 @@ function ContactForm(){
                     <span className="errorText">Uzupelnij dane!</span>
                 <input type="submit" value="Prześlij"/>
             </form>
+
+            <div className="blobContact">
+                <li></li>
+                <li></li>
+            </div>
         </div>
     )
 }
