@@ -120,6 +120,9 @@ form .errorText{
 }  
 
 @media screen and (max-width: 768px){
+    .ContactForm-container{
+        padding-bottom: 30px;
+    }
     .ContactForm-title{
         font-size: 12vw;
     }
