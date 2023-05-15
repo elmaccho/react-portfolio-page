@@ -4,6 +4,8 @@ import { NavBar } from './components/NavBar';
 import { Header } from './components/Header';
 import { AboutMe } from './components/AboutMe';
 import { Project } from './components/Projects/Projects';
+import { ContactForm } from './components/ContactForm';
+
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
         <Header></Header>
         <AboutMe></AboutMe>
         <Project></Project>
-
+        <ContactForm></ContactForm>
 
 
       </div>
