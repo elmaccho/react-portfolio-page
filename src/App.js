@@ -6,11 +6,8 @@ import { AboutMe } from './components/AboutMe';
 import { Project } from './components/Projects/Projects';
 import { ContactForm } from './components/ContactForm';
 
-
 function App() {
   return (
-
-
       <div className="App">
         
         <span className='blobApp'>
