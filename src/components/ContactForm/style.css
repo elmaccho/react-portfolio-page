@@ -143,18 +143,19 @@ form .errorInput{
 .slide-out-right {
     animation: slideOutRight 1s forwards;
     animation-delay: 2s;
-  }
+}
   
-  @keyframes slideOutRight {
+@keyframes slideOutRight {
     0% {
       transform: translateX(0);
-      opacity: 1;
+    }
+    80%{
+      transform: translateX(-10%);
     }
     100% {
       transform: translateX(100%);
-      opacity: 0;
     }
-  }
+}
 
 @media screen and (max-width: 768px) and (min-width: 481px){
     .ContactForm-container{
