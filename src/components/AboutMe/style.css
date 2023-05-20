@@ -1,284 +1,276 @@
-.aboutMe-container{
-    width: 100%;
-    padding: 125px 0;
-    margin-top: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
+.aboutMe-container {
+  width: 100%;
+  padding: 125px 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
-.aboutMe-img{
-    width: 40vw;
-    height: 40vw;
+.aboutMe-img {
+  width: 40vw;
+  height: 40vw;
 }
-
 .aboutMe-img img {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(115, 115, 115, 0.226);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(115, 115, 115, 0.226);
 }
 
-.aboutMe-text{
-    width: 50%;
-    padding: 0 30px;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.aboutMe-text {
+  width: 50%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMe-text .aboutMe-info {
+  display: block;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+}
+.aboutMe-text .skills {
+  color: #f7ba59;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.aboutMe-text-title{
-    text-align: center;
-    font-size: 5vw;
-    margin: 15px 0;
+.aboutMe-text-title {
+  text-align: center;
+  font-size: 5vw;
+  margin: 15px 0;
 }
 
-.aboutMe-text .aboutMe-info{
-    display: block;
-    font-size: 1.5vw;
-    letter-spacing: 1px;
+.skill-container {
+  padding: 2.5vw;
+  padding-right: 8vw;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  border-radius: 15px;
+  gap: 15px;
+  z-index: 2;
+  position: absolute;
+  top: -5vw;
+  right: 0;
+  transform: translateX(200%);
 }
-.aboutMe-text .skills{
-    color: #f7ba59;
-    font-weight: 600;
-    cursor: pointer;
+
+.openBox {
+  animation-name: OpenSkill;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
 }
 
-.skill-container{
-    padding: 2.5vw;
-    padding-right: 8vw;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: white;
-    border-radius: 15px;
-    gap: 15px;
-    z-index: 2;
+.closeBox {
+  animation-name: CloseSkill;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
 
+.skillBar-container {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  border-radius: 100px;
+  position: relative;
+}
 
-    position: absolute;
-    top:-5vw;
-    right: 0;
+.skillBar-bar {
+  width: 100%;
+  height: 2.2vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
 
+.skillBar-length {
+  border-radius: 100px;
+  background-color: #f7ba59;
+  width: 95%;
+  height: 2.2vw;
+}
+
+.html {
+  width: 95%;
+}
+
+.css {
+  width: 95%;
+}
+
+.js {
+  width: 75%;
+}
+
+.react {
+  width: 15%;
+}
+
+.skillBar-bar-title {
+  position: absolute;
+  left: 10px;
+  font-size: 1.2vw;
+}
+
+.skillBar-counter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -4vw;
+  font-size: 1.5vw;
+}
+
+.cvBtn {
+  min-width: 13vw;
+  height: 4vw;
+  border: none;
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.3vw;
+  font-weight: 600;
+  transition: 0.1s;
+  z-index: 1;
+}
+.cvBtn::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 5px;
+  right: 5px;
+  background-color: #f7ba59;
+  z-index: -1;
+  transition: 0.2s linear;
+}
+.cvBtn::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border: 1px solid black;
+  transition: 0.2s linear;
+  z-index: 1;
+}
+.cvBtn:hover::before {
+  top: 0px;
+  right: 0px;
+}
+.cvBtn:hover::after {
+  top: 5px;
+  left: -8px;
+}
+
+@keyframes OpenSkill {
+  0% {
     transform: translateX(200%);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
 }
-
-.openBox{
-    animation-name: OpenSkill;
-    animation-duration: 0.7s;
-    animation-fill-mode: forwards;
+@keyframes CloseSkill {
+  0% {
+    transform: translateX(5%);
+  }
+  90% {
+    transform: translateX(10%) scale(1.2);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(10%) scale(1.2);
+    opacity: 0%;
+    display: none;
+  }
 }
-.closeBox{
-    animation-name: CloseSkill;
-    animation-duration: 0.7s;
-    animation-fill-mode: forwards;
-}
-
-.skillBar-container{
-    background-color: rgb(236, 236, 236);
-    width: 100%;
-    border-radius: 100px;
+@media screen and (max-width: 768px) {
+  .aboutMe-container {
+    flex-direction: column;
+    padding: 20vw 0;
     position: relative;
-}
-
-.skillBar-bar{
-    width: 100%;
-    height: 2.2vw;
-    position: relative;
-
+  }
+  .aboutMe-img {
+    width: 75vw;
+    height: 75vw;
+  }
+  .aboutMe-text {
+    width: 75vw;
+    padding: unset;
+    position: unset;
     display: flex;
     align-items: center;
-}
-
-.skillBar-length{
-    border-radius: 100px;
-    background-color:#f7ba59;
-    width: 95%;
-    height: 2.2vw;
-}
-
-.html{
-    width: 95%;
-    /* background-color: orange; */
-}
-
-.css{
-    width: 95%;
-    /* background-color: rgb(0, 191, 255); */
-}
-
-.js{
-    width: 75%;
-    /* background-color: rgb(246, 246, 15); */
-}
-
-.react{
-    width: 15%;
-    /* background-color: rgb(80, 200, 252); */
-}
-
-.skillBar-bar-title{
-    position: absolute;
-    left:10px;
-    font-size: 1.2vw;
-}
-
-.skillBar-counter{
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    right: -4vw;
-    font-size: 1.5vw;
-}
-
-.cvBtn{
-    min-width: 13vw;
-    height: 4vw;
-    border:none;
-    background-color: transparent;
-    padding:20px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    color: black;
-    position: relative;
-    cursor: pointer;
-    font-size: 1.3vw;
-    font-weight: 600;
-    transition: 0.1s;
-    z-index: 1;
-}
-.cvBtn::before{
-    content: "";
+  }
+  .aboutMe-text .aboutMe-info {
+    font-size: 4vw;
+  }
+  .aboutMe-text-title {
+    font-size: 10vw;
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 5px;
-    right: 5px;
-    background-color: #f7ba59;
-    z-index: -1;
-    transition: 0.2s linear;
-}
-.cvBtn::after{
-    content: "";
+    top: 0;
+  }
+  .skill-container {
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    border: 1px solid black;
-    transition: 0.2s linear;
-    z-index: 1;
-}
-.cvBtn:hover::before{
-    top:0px;
-    right: 0px;
-}
-.cvBtn:hover::after{
-    top: 5px;
-    left: -8px;
-}
-
-@keyframes OpenSkill{
-    0%{
-        transform: translateX(200%);
+    top: 40%;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    transform: translateX(200%);
+    width: 60%;
+    height: 25vw;
+    padding: 2vw 0;
+    padding-left: 2vw;
+    padding-right: 12vw;
+  }
+  .skillBar-bar-title {
+    position: absolute;
+    left: 10px;
+    font-size: 2.5vw;
+  }
+  .skillBar-bar {
+    height: 3.5vw;
+  }
+  .skillBar-length {
+    height: 3.5vw;
+  }
+  .skillBar-counter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -7vw;
+    font-size: 3vw;
+  }
+  .cvBtn {
+    min-width: 35vw;
+    height: 10vw;
+    font-size: 3.5vw;
+  }
+  @keyframes OpenSkill {
+    0% {
+      transform: translateX(200%);
     }
-    50%{
-        transform: translateX(-10%);
+    50% {
+      transform: translateX(-5%);
     }
-    100%{
-        transform: translateX(10%);
+    100% {
+      transform: translateX(5%);
     }
-}
-
-@keyframes CloseSkill{
-    0%{
-        transform: translateX(10%);
-    }
-    90%{
-        transform: translateX(10%) scale(1.2);
-        opacity: 0%;
-    }
-    100%{
-        transform: translateX(200%) scale(1.2);
-        opacity: 0%;
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 768px){
-    .aboutMe-container{
-        flex-direction: column;
-        padding: 20vw 0;
-        position: relative;
-    }
-    .aboutMe-img{
-        width: 75vw;
-        height: 75vw;
-    }
-    .aboutMe-text{
-        width: 75vw;
-        padding: unset;
-        position: unset;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .aboutMe-text-title{
-        font-size: 10vw;
-        position: absolute;
-        top: 0;
-    }
-    .aboutMe-text .aboutMe-info{
-        font-size: 4vw;
-    }
-
-    .skill-container{
-        position: absolute;
-        top:40%;
-        right: 0;
-        border-radius: 10px 0 0 10px;
-        transform:translateX(200%) scale(1.5);
-        padding-right: 12vw;
-    }
-    .skillBar-bar-title{
-        position: absolute;
-        left:10px;
-        font-size: 1.8vw;
-    }
-    
-    .skillBar-counter{
-        position: absolute;
-        top:50%;
-        transform: translateY(-50%);
-        right: -7vw;
-        font-size: 3vw;
-    }
-
-    .cvBtn{
-        min-width: 35vw;
-        height: 10vw;
-        font-size: 3.5vw;
-    }
-
-    @keyframes toggleSkill{
-        0%{
-            transform: translateX(200%) scale(1.5);
-        }
-        50%{
-            transform: translateX(-50%) scale(1.5);
-        }
-        100%{
-            transform: translateX(-20%) scale(1.5);
-        }
-    }
-
-}
+  }
+}/*# sourceMappingURL=style.css.map */
