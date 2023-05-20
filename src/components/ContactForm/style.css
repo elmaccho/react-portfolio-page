@@ -156,7 +156,7 @@ form .errorInput{
     }
   }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 481px){
     .ContactForm-container{
         padding-bottom: 30px;
     }
@@ -183,8 +183,57 @@ form .errorInput{
 
     form input[type="submit"]{
         margin-top: unset;
-        width: 45vw;
-        height: 13vw;
-        font-size: 3.5vw;
+        width: 40vw;
+        height: 8vw;
+        font-size: 3vw;
+    }
+
+    .successMessage{
+        width: 60vw;
+        height: 10vw;
+
+        font-size: 3vw;
+        top: -3vw;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .ContactForm-container{
+        padding-bottom: 30px;
+    }
+    .ContactForm-title{
+        font-size: 12vw;
+    }
+
+    form span{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    form span input[type="text"]{
+        width: 100%;
+    }
+
+    form input{
+        width: 100%;
+    }
+
+    form textarea{
+        width: 100%;
+    }
+
+    form input[type="submit"]{
+        margin-top: unset;
+        width: 40vw;
+        height: 12vw;
+        font-size: 3vw;
+    }
+
+    .successMessage{
+        width: 60vw;
+        height: 10vw;
+
+        font-size: 3vw;
+        top: -3vw;
     }
 }

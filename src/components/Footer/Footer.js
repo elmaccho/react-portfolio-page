@@ -13,8 +13,7 @@ function Footer(){
     return(
         <div 
             className="footer-container" 
-            data-aos="fade-up"
-            data-aos-offset="-50"
+
         >
             Copyright © Maciej Chojnacki
         </div>
