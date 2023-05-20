@@ -202,11 +202,14 @@
     0%{
         transform: translateX(10%);
     }
-    50%{
-        transform: translateX(-10%);
+    90%{
+        transform: translateX(10%) scale(1.2);
+        opacity: 0%;
     }
     100%{
-        transform: translateX(200%);
+        transform: translateX(200%) scale(1.2);
+        opacity: 0%;
+        display: none;
     }
 }
 
