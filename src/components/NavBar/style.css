@@ -57,7 +57,7 @@
   font-size: 15px;
   font-weight: 600;
   transition: 0.3s;
-  color: #232323;
+  color: #1c1c1c;
 }
 .containerBtns::before {
   content: "";
