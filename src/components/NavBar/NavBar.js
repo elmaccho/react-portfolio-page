@@ -29,9 +29,6 @@ function NavBar(){
         }
     }, [])
 
-
-
-
     return(
         <>
             <button className="menuToggleBtn menuOpen" onClick={toggleMenu} ref={buttonRef}>
@@ -88,7 +85,6 @@ function NavBar(){
                         Kontakt
                     </Link>
                 </div>
-                
 
             </div>
         </>
