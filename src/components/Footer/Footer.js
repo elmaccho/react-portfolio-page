@@ -16,7 +16,7 @@ function Footer(){
             data-aos="fade-up"
             data-aos-offset="-50"
         >
-            Copyright Maciej Chojnacki
+            Copyright © Maciej Chojnacki
         </div>
     )
 }
