@@ -111,10 +111,14 @@ function ContactForm() {
     }
   };
 
+  const inputStyle = {
+    display: "none"
+  };
+
   return (
     <div id="Contact" className="ContactForm-container" data-Aos="fade-up">
       <h1 className="ContactForm-title">Kontakt</h1>
-      <form onSubmit={handleSubmit}>
+      <form action="https://formsubmit.co/maciek.chojnacki22@wp.pl" method="POST" onSubmit={handleSubmit}>
         <span>
           <input
             type="text"
@@ -153,6 +157,9 @@ function ContactForm() {
         ></textarea>
 
         <input type="submit" value="Prześlij" />
+
+
+        <input type="text" name="_honey" style={inputStyle} />
       </form>
 
       {isSuccessMessageVisible && (
