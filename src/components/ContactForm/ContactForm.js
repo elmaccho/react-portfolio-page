@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./style.css";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import emailjs from '@emailjs/browser';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -111,14 +114,22 @@ function ContactForm() {
     }
   };
 
-  const inputStyle = {
-    display: "none"
-  };
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_vnl1euz', 'service_vnl1euz', form.current, 'dCwJObTuAPglpiXGB')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
 
   return (
     <div id="Contact" className="ContactForm-container" data-Aos="fade-up">
       <h1 className="ContactForm-title">Kontakt</h1>
-      <form action="https://formsubmit.co/maciek.chojnacki22@wp.pl" method="POST" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} ref={form}>
         <span>
           <input
             type="text"
@@ -156,10 +167,48 @@ function ContactForm() {
           className={formErrors.message ? "errorInput" : ""}
         ></textarea>
 
-        <input type="submit" value="Prześlij" />
+        <button type="submit">Prześlij</button>
+      </form>
 
+      <form onSubmit={sendEmail} ref={form}>
+        <span>
+          <input
+            type="text"
+            placeholder="Imię"
+            name="firstName"
+            value={formData.firstName}
+            onChange={handleChange}
+            className={formErrors.firstName ? "errorInput" : ""}
+          />
 
-        <input type="text" name="_honey" style={inputStyle} />
+          <input
+            type="text"
+            placeholder="Nazwisko"
+            name="lastName"
+            value={formData.lastName}
+            onChange={handleChange}
+            className={formErrors.lastName ? "errorInput" : ""}
+          />
+        </span>
+
+        <input
+          type="email"
+          placeholder="E-mail"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          className={formErrors.email ? "errorInput" : ""}
+        />
+
+        <textarea
+          placeholder="Wiadomość..."
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          className={formErrors.message ? "errorInput" : ""}
+        ></textarea>
+
+        <button type="submit">Prześlij</button>
       </form>
 
       {isSuccessMessageVisible && (
@@ -180,5 +229,6 @@ function ContactForm() {
     </div>
   );
 }
+}
 
-export default ContactForm;
+export default ContactForm
