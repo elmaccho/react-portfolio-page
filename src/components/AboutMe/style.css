@@ -11,12 +11,14 @@
 .aboutMe-img {
   width: 40vw;
   height: 40vw;
+  background-image: url(./img/pngjpg.jpg);
+  background-size: cover;
 }
 .aboutMe-img img {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: rgba(115, 115, 115, 0.226);
+
 }
 
 .aboutMe-text {

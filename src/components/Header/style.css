@@ -55,7 +55,9 @@
   width: 33vw;
   height: 33vw;
   border-radius: 100%;
-  background-color: #d7e0ff;
+  background-image: url(./img/pngjpg.jpg);
+  background-size: cover;
+  /* filter:sepia(100%); */
 }
 
 .contactMe-button {

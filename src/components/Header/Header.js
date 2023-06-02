@@ -25,7 +25,7 @@ function Header(){
             </div>
                 
             <div className="header-img">
-                <img alt="zdjecia nie ma jeszcze"></img>
+                <img alt=""></img>
             </div>
         </div>
     )
