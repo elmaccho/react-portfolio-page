@@ -120,6 +120,31 @@ export function Project(){
                         </div>
                     </div>
 
+                    <div className="projectBox">
+                        <div className="projectBox-image">
+                            {/* <img src={img4} alt=""/> */}
+                        </div>
+
+                        <div className="projectBox-text">
+                            Strona robiona wraz z członkami zarządu Koło PI
+                        </div>
+
+                        <div className="seeMoreBox">
+                            <span>Zobacz więcej</span>
+                            
+                            <div className="seeMoreContent">
+                                <a className="faIcon" href="https://github.com/elmaccho/koloPi" target="_blank">
+                                    <FontAwesomeIcon icon={faGithub}/>
+                                </a>
+
+                                <a className="faIcon" href="http://kolopi.uniwersytetradom.pl" target="_blank">
+                                    <FontAwesomeIcon  icon={faGlobe}/>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className="blob">

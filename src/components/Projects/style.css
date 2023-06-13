@@ -20,13 +20,13 @@
 
 .projectBox-container{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 10vw;
+    grid-template-columns: auto auto auto;
+    gap: 5vw;
     padding-bottom: 50px;
 }
 
 .projectBox{
-    width: 30vw;
+    width: 25vw;
     height: 30vw;
     padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.578) 0px 3px 8px;
@@ -68,6 +68,10 @@
 
 .projectBox-container .projectBox:nth-child(4) .projectBox-image{
     background-image: url('./images/gorskimeble.png');
+    background-size: cover;
+}
+.projectBox-container .projectBox:nth-child(5) .projectBox-image{
+    background-image: url('./images/kolopi.jpg');
     background-size: cover;
 }
 
