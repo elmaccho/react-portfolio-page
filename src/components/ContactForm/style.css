@@ -144,6 +144,15 @@ form .errorInput{
     animation: slideOutRight 1s forwards;
     animation-delay: 2s;
 }
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
   
 @keyframes slideOutRight {
     0% {

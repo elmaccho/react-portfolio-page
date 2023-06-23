@@ -67,10 +67,6 @@
 }
 
 .projectBox-container .projectBox:nth-child(4) .projectBox-image{
-    background-image: url('./images/gorskimeble.png');
-    background-size: cover;
-}
-.projectBox-container .projectBox:nth-child(5) .projectBox-image{
     background-image: url('./images/kolopi.jpg');
     background-size: cover;
 }

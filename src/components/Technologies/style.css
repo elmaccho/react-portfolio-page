@@ -1,0 +1,135 @@
+@keyframes outerRotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes innerRotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+.tech-container{
+    padding: 8vw 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-container .tech-title{
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+.tech-wrapper{
+
+}
+
+.skill-wrapper{
+    border: 3px solid #232323;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    position: relative;
+
+    animation: outerRotate 35s linear infinite;
+}
+.skill-wrapper span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #232323;
+    background-color: white;
+
+    position: absolute;
+    padding:1vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    animation: innerRotate 35s linear infinite;
+
+}
+
+.skill-wrapper span .icon{
+    font-size: 4vw;
+}
+
+.skill-wrapper span:nth-child(1){
+    left:0;
+    top:50%;
+    transform: translate(-45%,-50%);
+}
+.skill-wrapper span:nth-child(2){
+    left:0;
+    bottom: 0;
+}
+.skill-wrapper span:nth-child(3){
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%, 45%);
+}
+.skill-wrapper span:nth-child(4){
+    right:0;
+    bottom: 0;
+}
+.skill-wrapper span:nth-child(5){
+    right:0;
+    top:50%;
+    transform: translate(45%,-50%);
+}
+.skill-wrapper span:nth-child(6){
+    right:0;
+    top: 0;
+}
+.skill-wrapper span:nth-child(7){
+    left:50%;
+    top:0;
+    transform: translate(-50%,-45%);
+}
+.skill-wrapper span:nth-child(8){
+    left:0;
+    top: 0;
+}
+
+
+.skill-wrapper span:nth-child(1) .icon{
+    color: orange;
+}
+.skill-wrapper span:nth-child(2) .icon{
+    color: rgb(0, 183, 255);
+}
+.skill-wrapper span:nth-child(3) .icon{
+    color: rgb(251, 255, 0);
+}
+.skill-wrapper span:nth-child(4) .icon{
+    color: rgb(255, 0, 255);
+}
+.skill-wrapper span:nth-child(5) .icon{
+    color: rgb(0, 123, 255);
+}
+.skill-wrapper span:nth-child(6) .icon{
+    color: rgb(159, 0, 217);
+}
+.skill-wrapper span:nth-child(7) .icon{
+    color: rgb(158, 213, 255);
+}
+.skill-wrapper span:nth-child(8) .icon{
+    color: rgb(118, 118, 118);
+}
+
+
+
+
+
+
