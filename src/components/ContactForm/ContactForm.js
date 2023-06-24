@@ -72,8 +72,6 @@ function ContactForm() {
       setIsFormSubmitted(true);
       setIsAnimationCompleted(false);
 
-      // Wysłanie formularza...
-
       setFormData({
         firstName: "",
         lastName: "",
@@ -181,7 +179,6 @@ function ContactForm() {
         <input type="text" name="_honey" style={inputStyle} />
       </form>
     </div>
-
 
       {isSuccessMessageVisible && (
         <div

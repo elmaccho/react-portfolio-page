@@ -8,6 +8,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
 .ContactForm-title{
@@ -129,15 +139,14 @@ form .errorInput{
 
     position: absolute;
     top:0;
-    right: 0;
+    right: 0; 
     z-index: 1;
 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
-    transform:translate(0%);
-
+    /* transform:translate(0%); */
 }
 
 .slide-out-right {
@@ -145,14 +154,7 @@ form .errorInput{
     animation-delay: 2s;
 }
 
-.box{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
+
   
 @keyframes slideOutRight {
     0% {

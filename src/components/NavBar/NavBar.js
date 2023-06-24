@@ -65,6 +65,17 @@ function NavBar(){
 
                     <Link 
                         className="containerBtns"
+                        to="Services"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        onClick={toggleMenu} 
+                        >
+                        Usługi
+                    </Link>
+
+                    <Link 
+                        className="containerBtns"
                         to="Projects"
                         spy={true}
                         smooth={true}
