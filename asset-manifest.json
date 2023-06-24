@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio-page/static/css/main.aad69345.css",
-    "main.js": "/react-portfolio-page/static/js/main.42beb6c9.js",
+    "main.css": "/react-portfolio-page/static/css/main.4cd892da.css",
+    "main.js": "/react-portfolio-page/static/js/main.e83e4e3f.js",
     "static/js/787.28a6522c.chunk.js": "/react-portfolio-page/static/js/787.28a6522c.chunk.js",
-    "static/media/gorskimeble.png": "/react-portfolio-page/static/media/gorskimeble.dd846189871870bf753e.png",
+    "static/media/pngjpg.jpg": "/react-portfolio-page/static/media/pngjpg.d85c5ac9306c5a25ef45.jpg",
     "static/media/infinityscroll.png": "/react-portfolio-page/static/media/infinityscroll.350e3d0133d230029d57.png",
     "static/media/loginpage.png": "/react-portfolio-page/static/media/loginpage.4d667f1d255283d46eb6.png",
+    "static/media/kolopi.jpg": "/react-portfolio-page/static/media/kolopi.c12938cfe1fb6894a77b.jpg",
     "static/media/inpostSS.jpg": "/react-portfolio-page/static/media/inpostSS.425ac73e403c652853b7.jpg",
     "index.html": "/react-portfolio-page/index.html",
-    "main.aad69345.css.map": "/react-portfolio-page/static/css/main.aad69345.css.map",
-    "main.42beb6c9.js.map": "/react-portfolio-page/static/js/main.42beb6c9.js.map",
+    "main.4cd892da.css.map": "/react-portfolio-page/static/css/main.4cd892da.css.map",
+    "main.e83e4e3f.js.map": "/react-portfolio-page/static/js/main.e83e4e3f.js.map",
     "787.28a6522c.chunk.js.map": "/react-portfolio-page/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aad69345.css",
-    "static/js/main.42beb6c9.js"
+    "static/css/main.4cd892da.css",
+    "static/js/main.e83e4e3f.js"
   ]
 }
