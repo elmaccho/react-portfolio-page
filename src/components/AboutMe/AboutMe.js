@@ -12,7 +12,7 @@ function AboutMe(){
 
     return (
         <>
-            <div id="AboutMe" className="aboutMe-container" data-Aos="fade-up" data-aos-offset="300">
+            <div id="AboutMe" className="aboutMe-container" data-Aos="fade-up" data-aos-offset="300"  data-aos-once="true">
                 <div className="aboutMe-img">
                 </div>
                 <div className="aboutMe-text">

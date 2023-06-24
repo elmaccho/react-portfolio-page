@@ -135,7 +135,7 @@ function ContactForm() {
 
   return (
     <div id="Contact" className="ContactForm-container">
-    <div className="box" data-Aos="fade-up">
+    <div className="box" data-Aos="fade-up"  data-aos-once="true">
     <h1 className="ContactForm-title">Kontakt</h1>
       <form ref={form} method="POST" onSubmit={handleSubmit}>
         <span>

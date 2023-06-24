@@ -19,17 +19,14 @@
 .tech-container{
     padding: 8vw 2vw;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 5vw;
+    flex-direction: column;
 }
 
 .tech-container .tech-title{
-    font-size: 3.5vw;
+    font-size: 5vw;
     text-align: left;
-}
-
-.tech-wrapper{
-
 }
 
 .skill-wrapper{
@@ -44,92 +41,127 @@
 
     animation: outerRotate 35s linear infinite;
 }
-.skill-wrapper span{
+.skill-wrapper .test{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 2px solid #232323;
     background-color: white;
+    font-size: 1.3vw;
 
     position: absolute;
     padding:1vw;
     width: 6vw;
     height: 6vw;
     border-radius: 50%;
+}
+.skill-wrapper .test .innerTest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     animation: innerRotate 35s linear infinite;
-
 }
 
-.skill-wrapper span .icon{
+.skill-wrapper .test .icon{
     font-size: 4vw;
 }
 
-.skill-wrapper span:nth-child(1){
+.skill-wrapper .test:nth-child(1){
     left:0;
     top:50%;
     transform: translate(-45%,-50%);
 }
-.skill-wrapper span:nth-child(2){
+.skill-wrapper .test:nth-child(2){
     left:0;
     bottom: 0;
 }
-.skill-wrapper span:nth-child(3){
+.skill-wrapper .test:nth-child(3){
     left:50%;
     bottom: 0;
     transform: translate(-50%, 45%);
 }
-.skill-wrapper span:nth-child(4){
+.skill-wrapper .test:nth-child(4){
     right:0;
     bottom: 0;
 }
-.skill-wrapper span:nth-child(5){
+.skill-wrapper .test:nth-child(5){
     right:0;
     top:50%;
     transform: translate(45%,-50%);
 }
-.skill-wrapper span:nth-child(6){
+.skill-wrapper .test:nth-child(6){
     right:0;
     top: 0;
 }
-.skill-wrapper span:nth-child(7){
+.skill-wrapper .test:nth-child(7){
     left:50%;
     top:0;
     transform: translate(-50%,-45%);
 }
-.skill-wrapper span:nth-child(8){
+.skill-wrapper .test:nth-child(8){
     left:0;
     top: 0;
 }
 
 
-.skill-wrapper span:nth-child(1) .icon{
+.skill-wrapper .test:nth-child(1) .icon{
     color: orange;
 }
-.skill-wrapper span:nth-child(2) .icon{
+.skill-wrapper .test:nth-child(2) .icon{
     color: rgb(0, 183, 255);
 }
-.skill-wrapper span:nth-child(3) .icon{
+.skill-wrapper .test:nth-child(3) .icon{
     color: rgb(251, 255, 0);
 }
-.skill-wrapper span:nth-child(4) .icon{
+.skill-wrapper .test:nth-child(4) .icon{
     color: rgb(255, 0, 255);
 }
-.skill-wrapper span:nth-child(5) .icon{
+.skill-wrapper .test:nth-child(5) .icon{
     color: rgb(0, 123, 255);
 }
-.skill-wrapper span:nth-child(6) .icon{
+.skill-wrapper .test:nth-child(6) .icon{
     color: rgb(159, 0, 217);
 }
-.skill-wrapper span:nth-child(7) .icon{
+.skill-wrapper .test:nth-child(7) .icon{
     color: rgb(158, 213, 255);
 }
-.skill-wrapper span:nth-child(8) .icon{
+.skill-wrapper .test:nth-child(8) .icon{
     color: rgb(118, 118, 118);
 }
 
 
-
-
-
-
+@media screen and (max-width: 768px){
+    .tech-container{
+        padding: 15vw 0;
+    }
+    .tech-container .tech-title{
+        font-size: 12vw;
+        text-align: center;
+    }
+    .skill-wrapper{
+        width: 75vw;
+        height: 75vw;
+    }
+    .skill-wrapper .test{
+        width: 17vw;
+        height: 17vw;
+        font-size: 3.5vw;
+    }
+    .skill-wrapper .test .icon{
+        font-size: 8vw;
+    } 
+    .skill-wrapper .test:nth-child(2){
+        transform: translate(5%, -5%);
+    }
+    .skill-wrapper .test:nth-child(4){
+        transform: translate(-5%, -5%);
+    }
+    .skill-wrapper .test:nth-child(6){
+        transform: translate(-5%, 5%);
+    }
+    .skill-wrapper .test:nth-child(8){
+        transform: translate(5%, 5%);
+    }
+}

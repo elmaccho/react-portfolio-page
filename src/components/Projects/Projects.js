@@ -18,7 +18,7 @@ export function Project(){
     return(
 
         <>
-            <div id="Projects" className="projects-container" data-Aos="fade-up">
+            <div id="Projects" className="projects-container" data-Aos="fade-up" data-aos-once="true">
 
                 <h1 className="projects-title">Projekty</h1>
 
