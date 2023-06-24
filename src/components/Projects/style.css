@@ -25,12 +25,12 @@
     padding-bottom: 50px;
 }
 
-.projectBox{
+.projectBox-container .projectBox{
     width: 25vw;
     height: 30vw;
     padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.578) 0px 3px 8px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -39,10 +39,10 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    transition: 0.3s;
 }
-.projectBox:hover{
-    transform: scale(102%);
+.projectBox-container .projectBox:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .projectBox-image{
@@ -80,6 +80,7 @@
     padding: 10px;
     box-sizing: border-box;
     font-size: 1.5vw;
+    text-align: center;
 }
 
 .seeMoreBox{
