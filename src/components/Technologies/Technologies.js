@@ -30,6 +30,11 @@ function Technologies(){
                         <span className="test"><span data-aos-once="true" data-aos-delay="800" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faFigma} /> Figma</span></span>
                     {/* </div> */}
                 </div>
+
+                <div className="blob">
+                    <li></li>
+                    <li></li>
+                </div>
             </div>
         </>
     )

@@ -1,13 +1,10 @@
 import React from "react";
 import './style.css'
-import 'aos/dist/aos.css'
 
 function Footer(){
 
     return(
-        <div 
-            className="footer-container" 
-        >
+        <div className="footer-container">
             Copyright © Maciej Chojnacki
         </div>
     )
