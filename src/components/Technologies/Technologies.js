@@ -19,7 +19,7 @@ function Technologies(){
                 <h1 className="tech-title" data-Aos="fade-in" data-aos-once="true">Technologie z którymi pracuje</h1>
 
                 {/* <div className="tech-wrapper"> */}
-                    <div className="skill-wrapper" data-Aos="fade-up">
+                    <div className="skill-wrapper" data-Aos="fade-up"  data-aos-once="true">
                         <span className="test"><span data-aos-once="true" data-aos-delay="100" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faHtml5} /> HTML</span></span>
                         <span className="test"><span data-aos-once="true" data-aos-delay="200" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faCss3Alt} /> CSS</span></span>
                         <span className="test"><span data-aos-once="true" data-aos-delay="300" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faJsSquare} /> JavaScript</span></span>

@@ -1,0 +1,55 @@
+.services-content{
+    width: 100%;
+    padding: 8vw 0vw;
+    background-color: #4059ad;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.592);
+}
+.services-content .services-title{
+    font-size: 5vw;
+}
+.services-content .boxWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+
+}
+.services-content .serviceBox{
+    background-color: white;
+    width: 28%;
+    height: 28vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2vw 1vw;
+    box-sizing: border-box;
+}
+.services-content .serviceBox p{
+    text-align: center;
+    color: #232323;
+}
+.services-content .serviceBox .icon{
+    color: white;
+    font-size: 3vw;
+}
+.services-content .serviceBox span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f7ba59;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+}

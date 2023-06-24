@@ -7,6 +7,7 @@ import { Project } from './components/Projects/Projects';
 import { ContactForm } from './components/ContactForm';
 import Footer from './components/Footer/Footer';
 import Technologies from './components/Technologies/Technologies';
+import { Services } from './components/Services';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <NavBar></NavBar>
         <Header></Header>
         <AboutMe></AboutMe>
+        <Services></Services>
         <Technologies></Technologies>
         <Project></Project>
         <ContactForm></ContactForm>
