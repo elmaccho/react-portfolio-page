@@ -37,7 +37,7 @@ export function Project(){
                             <span>Zobacz więcej</span>
                             
                             <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/InpostApp" target="_blank">
+                                <a className="faIcon" href="https://github.com/elmaccho/InpostApp" target="_blank" rel="noopener">
                                     <FontAwesomeIcon icon={faGithub}/>
                                 </a>
                             </div>
@@ -58,11 +58,11 @@ export function Project(){
                             <span>Zobacz więcej</span>
                             
                             <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/Login-page" target="_blank">
+                                <a className="faIcon" href="https://github.com/elmaccho/Login-page" target="_blank" rel="noopener">
                                     <FontAwesomeIcon icon={faGithub}/>
                                 </a>
 
-                                <a className="faIcon" href="https://elmaccho.github.io/Login-page/" target="_blank">
+                                <a className="faIcon" href="https://elmaccho.github.io/Login-page/" target="_blank" rel="noopener">
                                     <FontAwesomeIcon  icon={faGlobe}/>
                                 </a>
                             </div>
@@ -83,11 +83,11 @@ export function Project(){
                             <span>Zobacz więcej</span>
                             
                             <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/infinityscroll.github.io" target="_blank">
+                                <a className="faIcon" href="https://github.com/elmaccho/infinityscroll.github.io" target="_blank" rel="noopener">
                                     <FontAwesomeIcon icon={faGithub}/>
                                 </a>
 
-                                <a className="faIcon" href="https://elmaccho.github.io/infinityscroll.github.io/" target="_blank">
+                                <a className="faIcon" href="https://elmaccho.github.io/infinityscroll.github.io/" target="_blank" rel="noopener">
                                     <FontAwesomeIcon  icon={faGlobe}/>
                                 </a>
                             </div>
@@ -108,11 +108,11 @@ export function Project(){
                             <span>Zobacz więcej</span>
                             
                             <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/koloPi" target="_blank">
+                                <a className="faIcon" href="https://github.com/elmaccho/koloPi" target="_blank" rel="noopener">
                                     <FontAwesomeIcon icon={faGithub}/>
                                 </a>
 
-                                <a className="faIcon" href="http://kolopi.uniwersytetradom.pl" target="_blank">
+                                <a className="faIcon" href="http://kolopi.uniwersytetradom.pl" target="_blank" rel="noopener">
                                     <FontAwesomeIcon  icon={faGlobe}/>
                                 </a>
                             </div>
