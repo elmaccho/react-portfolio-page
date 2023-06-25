@@ -55,7 +55,7 @@
   width: 33vw;
   height: 33vw;
   border-radius: 100%;
-  background-image: url(./img/pngjpg.jpg);
+  background-image: url(../../../public/img/profile.webp);
   background-size: cover;
   /* filter:sepia(100%); */
 }

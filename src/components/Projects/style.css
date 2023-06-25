@@ -52,22 +52,22 @@
 }
 
 .projectBox-container .projectBox:nth-child(1) .projectBox-image{
-    background-image: url('./images/inpostSS.jpg');
+    background-image: url('../../../public/img/projectIMG/inpostSS.webp');
     background-size: cover;
 }
 
 .projectBox-container .projectBox:nth-child(2) .projectBox-image{
-    background-image: url('./images/loginpage.png');
+    background-image: url('../../../public/img/projectIMG/loginpage.webp');
     background-size: cover;
 }
 
 .projectBox-container .projectBox:nth-child(3) .projectBox-image{
-    background-image: url('./images/infinityscroll.png');
+    background-image: url('../../../public/img/projectIMG/infinityscroll.webp');
     background-size: cover;
 }
 
 .projectBox-container .projectBox:nth-child(4) .projectBox-image{
-    background-image: url('./images/kolopi.jpg');
+    background-image: url('../../../public/img/projectIMG/kolopi.webp');
     background-size: cover;
 }
 

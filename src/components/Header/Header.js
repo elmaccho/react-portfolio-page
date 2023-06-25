@@ -25,7 +25,7 @@ function Header(){
             </div>
                 
             <div className="header-img">
-                <img alt=""></img>
+                <img alt="Maciej Chojnacki"></img>
             </div>
         </div>
     )
