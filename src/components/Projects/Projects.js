@@ -18,13 +18,13 @@ export function Project(){
     return(
 
         <>
-            <div id="Projects" className="projects-container" data-Aos="fade-up" data-aos-once="true">
+            <div id="Projects" className="projects-container" data-aos="fade-up" data-aos-once="true">
 
                 <h1 className="projects-title">Projekty</h1>
 
                 <div className="projectBox-container">
 
-                    <div className="projectBox" data-Aos="fade-up" data-aos-once="true" data-aos-delay="0">
+                    <div className="projectBox" data-aos="fade-up" data-aos-once="true" data-aos-delay="0">
                         <div className="projectBox-image">
                             {/* <img src={img1} alt=""/> */}
                         </div>
@@ -45,7 +45,7 @@ export function Project(){
                         </div>
                     </div>
 
-                    <div className="projectBox" data-Aos="fade-up" data-aos-once="true" data-aos-delay="50">
+                    <div className="projectBox" data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
                         <div className="projectBox-image">
                             {/* <img src={img2} alt=""/> */}
                         </div>
@@ -70,7 +70,7 @@ export function Project(){
                         </div>
                     </div>
 
-                    <div className="projectBox" data-Aos="fade-up" data-aos-once="true" data-aos-delay="100">
+                    <div className="projectBox" data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
                         <div className="projectBox-image">
                             {/* <img src={img3} alt=""/> */}
                         </div>
@@ -95,7 +95,7 @@ export function Project(){
                         </div>
                     </div>
 
-                    <div className="projectBox" data-Aos="fade-up" data-aos-once="true" data-aos-delay="150">
+                    <div className="projectBox" data-aos="fade-up" data-aos-once="true" data-aos-delay="150">
                         <div className="projectBox-image">
                             {/* <img src={img4} alt=""/> */}
                         </div>

@@ -16,18 +16,18 @@ function Technologies(){
         <>
             <div className="tech-container">
 
-                <h1 className="tech-title" data-Aos="fade-in" data-aos-once="true">Technologie z którymi pracuje</h1>
+                <h1 className="tech-title" data-aos="fade-in" data-aos-once="true">Technologie z którymi pracuje</h1>
 
                 {/* <div className="tech-wrapper"> */}
-                    <div className="skill-wrapper" data-Aos="fade-up"  data-aos-once="true">
-                        <span className="test"><span data-aos-once="true" data-aos-delay="100" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faHtml5} /> HTML</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="200" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faCss3Alt} /> CSS</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="300" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faJsSquare} /> JavaScript</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="400" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faSass} /> Sass</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="500" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faReact} /> React</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="600" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faPhp} /> PHP</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="700" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faDatabase} /> MySql</span></span>
-                        <span className="test"><span data-aos-once="true" data-aos-delay="800" data-Aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faFigma} /> Figma</span></span>
+                    <div className="skill-wrapper" data-aos="fade-up"  data-aos-once="true">
+                        <span className="test"><span data-aos-once="true" data-aos-delay="100" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faHtml5} /> HTML</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="200" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faCss3Alt} /> CSS</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="300" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faJsSquare} /> JavaScript</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="400" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faSass} /> Sass</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="500" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faReact} /> React</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="600" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faPhp} /> PHP</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="700" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faDatabase} /> MySql</span></span>
+                        <span className="test"><span data-aos-once="true" data-aos-delay="800" data-aos="fade-up" className="innerTest"><FontAwesomeIcon className="icon" icon={faFigma} /> Figma</span></span>
                     {/* </div> */}
                 </div>
 

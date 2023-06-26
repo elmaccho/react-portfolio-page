@@ -10,7 +10,7 @@ function Header(){
     }, [])
 
     return(
-        <div className="header-container"  data-AOS="fade-right"  data-aos-once="true">
+        <div className="header-container"  data-aos="fade-right"  data-aos-once="true">
             <div className="header-text">
                 <span>Hej!</span>
                 <h1>Jestem Maciej</h1>
