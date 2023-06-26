@@ -3,7 +3,7 @@ import './style.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
-function AboutMe(){
+function About(){
 
     useEffect(()=>{
         Aos.init()
@@ -27,11 +27,11 @@ function AboutMe(){
                      Mimo braku doświadczenia komercyjnego, jestem w stanie samodzielnie pracować i rozwiązywać problemy.
                     </p>
 
-                    <button className="cvBtn">Pobierz CV</button>
+                    <a href="/public/CV_Maciej_Chojnacki.pdf" download className="cvBtn">Pobierz CV</a>
                 </div>
             </div>
         </>
     )
 }
 
-export default AboutMe
+export default About

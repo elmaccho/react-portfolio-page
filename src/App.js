@@ -2,12 +2,12 @@ import './App.css';
 
 import { NavBar } from './components/NavBar';
 import { Header } from './components/Header';
-import { AboutMe } from './components/AboutMe';
 import { Project } from './components/Projects/Projects';
 import { ContactForm } from './components/ContactForm';
 import Footer from './components/Footer/Footer';
 import Technologies from './components/Technologies/Technologies';
 import { Services } from './components/Services';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
 
         <NavBar></NavBar>
         <Header></Header>
-        <AboutMe></AboutMe>
+        <About></About>
         <Services></Services>
         <Technologies></Technologies>
         <Project></Project>
