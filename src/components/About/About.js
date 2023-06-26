@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import './style.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import CV from './CV_Maciej_Chojnacki.pdf'
 
 function About(){
 
@@ -27,7 +28,7 @@ function About(){
                      Mimo braku doświadczenia komercyjnego, jestem w stanie samodzielnie pracować i rozwiązywać problemy.
                     </p>
 
-                    <a href="/public/CV_Maciej_Chojnacki.pdf" download className="cvBtn">Pobierz CV</a>
+                    <a href={CV} download="CV_Maciej_Chojnacki" target="_blank" className="cvBtn">Pobierz CV</a>
                 </div>
             </div>
         </>
