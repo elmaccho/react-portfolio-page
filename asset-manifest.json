@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-page/static/css/main.e6750739.css",
-    "main.js": "/react-portfolio-page/static/js/main.6cbf1ae7.js",
+    "main.css": "/react-portfolio-page/static/css/main.8f0500a7.css",
+    "main.js": "/react-portfolio-page/static/js/main.af6b6881.js",
     "static/js/787.28a6522c.chunk.js": "/react-portfolio-page/static/js/787.28a6522c.chunk.js",
     "static/media/profile.webp": "/react-portfolio-page/static/media/profile.93a15f3fa7801b17b022.webp",
     "static/media/kolopi.webp": "/react-portfolio-page/static/media/kolopi.b1d71fb00b64faa6fcf5.webp",
@@ -9,12 +9,12 @@
     "static/media/infinityscroll.webp": "/react-portfolio-page/static/media/infinityscroll.bf5e6b819ec84523a10c.webp",
     "static/media/inpostSS.webp": "/react-portfolio-page/static/media/inpostSS.0115f6c19a250cd31a55.webp",
     "index.html": "/react-portfolio-page/index.html",
-    "main.e6750739.css.map": "/react-portfolio-page/static/css/main.e6750739.css.map",
-    "main.6cbf1ae7.js.map": "/react-portfolio-page/static/js/main.6cbf1ae7.js.map",
+    "main.8f0500a7.css.map": "/react-portfolio-page/static/css/main.8f0500a7.css.map",
+    "main.af6b6881.js.map": "/react-portfolio-page/static/js/main.af6b6881.js.map",
     "787.28a6522c.chunk.js.map": "/react-portfolio-page/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6750739.css",
-    "static/js/main.6cbf1ae7.js"
+    "static/css/main.8f0500a7.css",
+    "static/js/main.af6b6881.js"
   ]
 }
