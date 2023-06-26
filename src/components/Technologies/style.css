@@ -23,6 +23,7 @@
     gap: 5vw;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 }
 
 .tech-container .tech-title{
