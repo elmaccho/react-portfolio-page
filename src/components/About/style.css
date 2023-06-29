@@ -15,7 +15,7 @@ a{
   .aboutMe-img {
     width: 40vw;
     height: 40vw;
-    background-image: url(../../../public/img/profile.webp);
+    /* background-image: url(../../../public/img/profile.webp); */
     background-size: cover;
   }
   .aboutMe-img img {

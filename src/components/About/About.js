@@ -3,6 +3,7 @@ import './style.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import CV from './CV_Maciej_Chojnacki.pdf'
+import image from '../Header/profile.webp'
 
 function About(){
 
@@ -15,6 +16,7 @@ function About(){
         <>
             <div id="AboutMe" className="aboutMe-container" data-aos="fade-up" data-aos-offset="300"  data-aos-once="true">
                 <div className="aboutMe-img">
+                    <img src={image}/>
                 </div>
                 <div className="aboutMe-text">
                     <h1 className="aboutMe-text-title">

@@ -33,15 +33,8 @@ export function Project(){
                             Próba odwzorowania aplikacji InPost z dodatkiem bazy danych MySQL oraz PHP.
                         </div>
 
-                        <div className="seeMoreBox">
-                            <span>Zobacz więcej</span>
-                            
-                            <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/InpostApp" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon icon={faGithub}/>
-                                </a>
-                            </div>
-                            
+                        <div className="seeMoreBox">                            
+                                <a className="projectLink" href="https://github.com/elmaccho/InpostApp" target="_blank" rel="noopener">GitHub</a>
                         </div>
                     </div>
 
@@ -54,19 +47,14 @@ export function Project(){
                             Strona logowania oraz rejestracji.
                         </div>
 
-                        <div className="seeMoreBox">
-                            <span>Zobacz więcej</span>
-                            
-                            <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/Login-page" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon icon={faGithub}/>
+                        <div className="seeMoreBox">                            
+                                <a className="projectLink" href="https://github.com/elmaccho/Login-page" target="_blank" rel="noopener">
+                                    GitHub
                                 </a>
 
-                                <a className="faIcon" href="https://elmaccho.github.io/Login-page/" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon  icon={faGlobe}/>
+                                <a className="projectLink" href="https://elmaccho.github.io/Login-page/" target="_blank" rel="noopener">
+                                    Live
                                 </a>
-                            </div>
-                            
                         </div>
                     </div>
 
@@ -80,18 +68,13 @@ export function Project(){
                         </div>
 
                         <div className="seeMoreBox">
-                            <span>Zobacz więcej</span>
-                            
-                            <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/infinityscroll.github.io" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon icon={faGithub}/>
+                                <a className="projectLink" href="https://github.com/elmaccho/infinityscroll.github.io" target="_blank" rel="noopener">
+                                    GitHub
                                 </a>
 
-                                <a className="faIcon" href="https://elmaccho.github.io/infinityscroll.github.io/" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon  icon={faGlobe}/>
+                                <a className="projectLink" href="https://elmaccho.github.io/infinityscroll.github.io/" target="_blank" rel="noopener">
+                                    Live
                                 </a>
-                            </div>
-                            
                         </div>
                     </div>
 
@@ -105,18 +88,13 @@ export function Project(){
                         </div>
 
                         <div className="seeMoreBox">
-                            <span>Zobacz więcej</span>
-                            
-                            <div className="seeMoreContent">
-                                <a className="faIcon" href="https://github.com/elmaccho/koloPi" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon icon={faGithub}/>
+                                <a className="projectLink" href="https://github.com/elmaccho/koloPi" target="_blank" rel="noopener">
+                                    GitHub
                                 </a>
 
-                                <a className="faIcon" href="http://kolopi.uniwersytetradom.pl" target="_blank" rel="noopener">
-                                    <FontAwesomeIcon  icon={faGlobe}/>
+                                <a className="projectLink" href="http://kolopi.uniwersytetradom.pl" target="_blank" rel="noopener">
+                                    Live
                                 </a>
-                            </div>
-                            
                         </div>
                     </div>
 
