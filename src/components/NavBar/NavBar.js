@@ -35,7 +35,7 @@ function NavBar(){
                 <FontAwesomeIcon className="faBarsIcon" icon={faBars}/>
             </button>
 
-            <div className={`navBar-container ${toggleState ? "toggle" : ""}`} ref={menuRef}>
+            <nav className={`navBar-container ${toggleState ? "toggle" : ""}`} ref={menuRef}>
                 <button aria-label="Close menu" className="menuToggleBtn menuClose" onClick={toggleMenu}>
                     <FontAwesomeIcon icon={faXmark}/>
                 </button>
@@ -101,7 +101,7 @@ function NavBar(){
                     </Link>
                 </div>
 
-            </div>
+            </nav>
         </>
     )
 }

@@ -11,7 +11,7 @@
 .header-text {
   width: 60%;
   box-sizing: border-box;
-  padding: 7.5%;
+  padding: 7%;
   padding-top: 0;
   position: relative;
   display: flex;
@@ -146,7 +146,7 @@
     top: 30px;
     right: unset;
     width: 45vw;
-    height: 18vw;
+    height: 13vw;
     font-size: 5vw;
   }
   .contactMe-button::after {
