@@ -3,6 +3,7 @@ import './style.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import { Link } from "react-scroll";
+import image from './profile.webp'
 
 function Header(){
     useEffect(()=>{
@@ -25,7 +26,7 @@ function Header(){
             </div>
                 
             <div className="header-img">
-                <img alt="Maciej Chojnacki"></img>
+                <img src={image} alt="Maciej Chojnacki"></img>
             </div>
         </div>
     )
