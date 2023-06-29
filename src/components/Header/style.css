@@ -115,16 +115,17 @@
     height: 75vw;
   }
   .header-text {
-    padding: 0 7.5%;
+    padding: 0;
     width: 100%;
   }
   .header-text h1 {
-    font-size: 12vw;
+    font-size: 11vw;
+    width: 100%;
   }
   .header-text span:nth-child(1) {
     font-size: 5vw;
     top: unset;
-    left: 4.5vw;
+    left: 14vw;
   }
   .header-text span:nth-child(3) {
     font-size: 5vw;
