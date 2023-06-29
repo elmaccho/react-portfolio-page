@@ -3,12 +3,6 @@ import './style.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-
-
-
 export function Project(){
 
     useEffect(()=>{
@@ -16,11 +10,10 @@ export function Project(){
     }, [])
 
     return(
-
         <>
             <div id="Projects" className="projects-container" data-aos="fade-up" data-aos-once="true">
 
-                <h1 className="projects-title">Projekty</h1>
+                <h2 className="projects-title">Projekty</h2>
 
                 <div className="projectBox-container">
 
@@ -34,7 +27,7 @@ export function Project(){
                         </div>
 
                         <div className="seeMoreBox">                            
-                                <a className="projectLink" href="https://github.com/elmaccho/InpostApp" target="_blank" rel="noopener">GitHub</a>
+                                <a aria-label="githubLink" className="projectLink" href="https://github.com/elmaccho/InpostApp" target="_blank" rel="noopener">GitHub</a>
                         </div>
                     </div>
 
@@ -48,11 +41,11 @@ export function Project(){
                         </div>
 
                         <div className="seeMoreBox">                            
-                                <a className="projectLink" href="https://github.com/elmaccho/Login-page" target="_blank" rel="noopener">
+                                <a aria-label="githubLink" className="projectLink" href="https://github.com/elmaccho/Login-page" target="_blank" rel="noopener">
                                     GitHub
                                 </a>
 
-                                <a className="projectLink" href="https://elmaccho.github.io/Login-page/" target="_blank" rel="noopener">
+                                <a aria-label="liveLink" className="projectLink" href="https://elmaccho.github.io/Login-page/" target="_blank" rel="noopener">
                                     Live
                                 </a>
                         </div>
@@ -68,11 +61,11 @@ export function Project(){
                         </div>
 
                         <div className="seeMoreBox">
-                                <a className="projectLink" href="https://github.com/elmaccho/infinityscroll.github.io" target="_blank" rel="noopener">
+                                <a aria-label="githubLink" className="projectLink" href="https://github.com/elmaccho/infinityscroll.github.io" target="_blank" rel="noopener">
                                     GitHub
                                 </a>
 
-                                <a className="projectLink" href="https://elmaccho.github.io/infinityscroll.github.io/" target="_blank" rel="noopener">
+                                <a aria-label="liveLink" className="projectLink" href="https://elmaccho.github.io/infinityscroll.github.io/" target="_blank" rel="noopener">
                                     Live
                                 </a>
                         </div>
@@ -88,11 +81,11 @@ export function Project(){
                         </div>
 
                         <div className="seeMoreBox">
-                                <a className="projectLink" href="https://github.com/elmaccho/koloPi" target="_blank" rel="noopener">
+                                <a aria-label="githubLink" className="projectLink" href="https://github.com/elmaccho/koloPi" target="_blank" rel="noopener">
                                     GitHub
                                 </a>
 
-                                <a className="projectLink" href="http://kolopi.uniwersytetradom.pl" target="_blank" rel="noopener">
+                                <a aria-label="liveLink" className="projectLink" href="http://kolopi.uniwersytetradom.pl" target="_blank" rel="noopener">
                                     Live
                                 </a>
                         </div>
@@ -106,7 +99,5 @@ export function Project(){
                 </div>
             </div>
         </>
-
-
     )
 }

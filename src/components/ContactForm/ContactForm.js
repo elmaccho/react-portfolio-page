@@ -133,52 +133,60 @@ function ContactForm() {
 
   return (
     <div id="Contact" className="ContactForm-container">
-    <div className="box" data-aos="fade-up"  data-aos-once="true">
-    <h1 className="ContactForm-title">Kontakt</h1>
-      <form ref={form} method="POST" onSubmit={handleSubmit}>
-        <span>
+      <div className="box" data-aos="fade-up"  data-aos-once="true">
+      <h2 className="ContactForm-title">Kontakt</h2>
+        <form ref={form} method="POST" onSubmit={handleSubmit}>
+          <span>
+          <label htmlFor="firstName">Imię:</label>
+            <input
+              type="text"
+              id="firstName"
+              placeholder="Imię"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+              className={formErrors.firstName ? "errorInput" : ""}
+            />
+
+          <label htmlFor="lastName">Nazwisko:</label>
+            <input
+              type="text"
+              id="lastName"
+              placeholder="Nazwisko"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+              className={formErrors.lastName ? "errorInput" : ""}
+            />
+          </span>
+
+          <label htmlFor="email">Email:</label>
           <input
-            type="text"
-            placeholder="Imię"
-            name="firstName"
-            value={formData.firstName}
+            type="email"
+            id="email"
+            placeholder="E-mail"
+            name="email"
+            value={formData.email}
             onChange={handleChange}
-            className={formErrors.firstName ? "errorInput" : ""}
+            className={formErrors.email ? "errorInput" : ""}
           />
 
-          <input
-            type="text"
-            placeholder="Nazwisko"
-            name="lastName"
-            value={formData.lastName}
+        <label htmlFor="message">Wiadomość:</label>
+          <textarea
+            placeholder="Wiadomość..."
+            id="message"
+            name="message"
+            value={formData.message}
             onChange={handleChange}
-            className={formErrors.lastName ? "errorInput" : ""}
-          />
-        </span>
+            className={formErrors.message ? "errorInput" : ""}
+          ></textarea>
 
-        <input
-          type="email"
-          placeholder="E-mail"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          className={formErrors.email ? "errorInput" : ""}
-        />
-
-        <textarea
-          placeholder="Wiadomość..."
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          className={formErrors.message ? "errorInput" : ""}
-        ></textarea>
-
-        <input type="submit" value="Prześlij"/>
+          <input type="submit" value="Prześlij"/>
 
 
-        <input type="text" name="_honey" style={inputStyle} />
-      </form>
-    </div>
+          <input type="text" name="_honey" style={inputStyle} />
+        </form>
+      </div>
 
       {isSuccessMessageVisible && (
         <div

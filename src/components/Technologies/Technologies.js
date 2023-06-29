@@ -16,7 +16,7 @@ function Technologies(){
         <>
             <div className="tech-container">
 
-                <h1 className="tech-title" data-aos="fade-in" data-aos-once="true">Technologie z którymi pracuje</h1>
+                <h2 className="tech-title" data-aos="fade-in" data-aos-once="true">Technologie z którymi pracuje</h2>
 
                 {/* <div className="tech-wrapper"> */}
                     <div className="skill-wrapper" data-aos="fade-up"  data-aos-once="true">

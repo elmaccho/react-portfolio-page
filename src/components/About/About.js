@@ -19,9 +19,9 @@ function About(){
                     <img src={image}/>
                 </div>
                 <div className="aboutMe-text">
-                    <h1 className="aboutMe-text-title">
+                    <h2 className="aboutMe-text-title">
                         O mnie
-                    </h1>
+                    </h2>
                     <p className="aboutMe-info">
                     Jestem Maciej, 21-letni pasjonat programowania. 
                     Moja przygoda z Web Developmentem rozpoczęła się półtora roku temu. 
@@ -30,7 +30,7 @@ function About(){
                      Mimo braku doświadczenia komercyjnego, jestem w stanie samodzielnie pracować i rozwiązywać problemy.
                     </p>
 
-                    <a href={CV} download="CV_Maciej_Chojnacki" target="_blank" className="cvBtn">Pobierz CV</a>
+                    <a aria-label="Download CV" href={CV} download="CV_Maciej_Chojnacki" target="_blank" className="cvBtn">Pobierz CV</a>
                 </div>
             </div>
         </>

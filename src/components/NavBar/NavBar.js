@@ -31,12 +31,12 @@ function NavBar(){
 
     return(
         <>
-            <button className="menuToggleBtn menuOpen" onClick={toggleMenu} ref={buttonRef}>
+            <button aria-label="Open menu" className="menuToggleBtn menuOpen" onClick={toggleMenu} ref={buttonRef}>
                 <FontAwesomeIcon className="faBarsIcon" icon={faBars}/>
             </button>
 
             <div className={`navBar-container ${toggleState ? "toggle" : ""}`} ref={menuRef}>
-                <button className="menuToggleBtn menuClose" onClick={toggleMenu}>
+                <button aria-label="Close menu" className="menuToggleBtn menuClose" onClick={toggleMenu}>
                     <FontAwesomeIcon icon={faXmark}/>
                 </button>
 
@@ -54,6 +54,7 @@ function NavBar(){
 
                     <Link 
                         className="containerBtns"
+                        href="AboutMe"
                         to="AboutMe"
                         spy={true}
                         smooth={true}
@@ -65,6 +66,7 @@ function NavBar(){
 
                     <Link 
                         className="containerBtns"
+                        href="#Services"
                         to="Services"
                         spy={true}
                         smooth={true}
@@ -76,6 +78,7 @@ function NavBar(){
 
                     <Link 
                         className="containerBtns"
+                        href="Projects"
                         to="Projects"
                         spy={true}
                         smooth={true}
@@ -87,6 +90,7 @@ function NavBar(){
 
                     <Link 
                         className="containerBtns"
+                        href="Contact"
                         to="Contact"
                         spy={true}
                         smooth={true}

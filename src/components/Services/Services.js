@@ -16,7 +16,7 @@ function Services(){
     return(
         <>
             <div id="Services" className="services-content">
-                <h1 className="services-title" data-aos="fade-up" data-aos-once="true">Usługi</h1>
+                <h2 className="services-title" data-aos="fade-up" data-aos-once="true">Usługi</h2>
 
                 <div className="boxWrapper">
                     <div className="serviceBox" data-aos="fade-up" data-aos-once="true">

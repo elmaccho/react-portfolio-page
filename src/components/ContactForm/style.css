@@ -24,6 +24,10 @@
     font-size: 5vw;
 }
 
+label{
+    display: none;
+}
+
 form{
     width: 80%;
     z-index: 1;
