@@ -181,7 +181,7 @@ function ContactForm() {
             className={formErrors.message ? "errorInput" : ""}
           ></textarea>
 
-          <input type="submit" value="Prześlij"/>
+          <button type="submit">Prześlij</button>
 
 
           <input type="text" name="_honey" style={inputStyle} />

@@ -70,7 +70,7 @@ form textarea{
     padding-top: 15px;
 }
 
-form input[type="submit"]{
+form button{
     text-indent: unset;
     width: 20%;
     height: 4.5vw;
@@ -86,7 +86,7 @@ form input[type="submit"]{
     background-color: #4059ad;
     color: white;
 }
-form input[type="submit"]:hover{
+form button:hover{
     background-color: #f7ba59;
     color: black;
 }
@@ -197,7 +197,7 @@ form .errorInput{
         width: 100%;
     }
 
-    form input[type="submit"]{
+    form button{
         margin-top: unset;
         width: 40vw;
         height: 8vw;
@@ -238,7 +238,7 @@ form .errorInput{
         width: 100%;
     }
 
-    form input[type="submit"]{
+    form button{
         margin-top: unset;
         width: 40vw;
         height: 12vw;
