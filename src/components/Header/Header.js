@@ -11,23 +11,24 @@ function Header(){
     }, [])
 
     return(
-        <div className="header-container"  data-aos="fade-right"  data-aos-once="true">
-            <div className="header-text">
-                <span className="headerDescTop">Hej!</span>
-                <h1>Jestem Maciej</h1>
-                <span className="headerDescBottom">Junior FrontEnd Developer</span>
-                <Link
-                    className="contactMe-button"
-                    to="Contact"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                >Współpraca</Link>
-            </div>
-                
-            <div className="header-img">
-                <img src={image} alt="Maciej Chojnacki"></img>
-            </div>
+        <div className="header-container" data-aos="fade-right" data-aos-once="true">
+        <div className="header-text">
+            <span className="header-text__description-top">Hej!</span>
+            <h1 className="header-text__title">Jestem Maciej</h1>
+            <span className="header-text__description-bottom">Junior FrontEnd Developer</span>
+            <Link
+            className="contact-me-button"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            >
+            Współpraca
+            </Link>
+        </div>
+        <div className="header-img">
+            <img className="header-img__image" src={image} alt="Maciej Chojnacki" />
+        </div>
         </div>
     )
 }
