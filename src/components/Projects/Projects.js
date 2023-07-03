@@ -91,6 +91,26 @@ export function Project(){
                         </div>
                     </div>
 
+                    <div className="projectBox" data-aos="fade-up" data-aos-once="true" data-aos-delay="150">
+                        <div className="projectBox-image">
+                            {/* <img src={img4} alt=""/> */}
+                        </div>
+
+                        <div className="projectBox-text">
+                            [NIEUKOŃCZONE] Strona typu forum będzie zawierać bazę danych, profile, postowanie, rangi i wiele innych funkcji.
+                        </div>
+
+                        <div className="seeMoreBox">
+                                <a aria-label="githubLink" className="projectLink" href="https://github.com/elmaccho/forum-app-or-smth" target="_blank" rel="noopener">
+                                    GitHub
+                                </a>
+
+                                {/* <a aria-label="liveLink" className="projectLink" href="http://kolopi.uniwersytetradom.pl" target="_blank" rel="noopener">
+                                    Live
+                                </a> */}
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className="blob">

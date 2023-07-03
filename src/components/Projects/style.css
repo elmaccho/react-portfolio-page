@@ -70,6 +70,10 @@
     background-image: url('../../../public/img/projectIMG/kolopi.webp');
     background-size: cover;
 }
+.projectBox-container .projectBox:nth-child(5) .projectBox-image{
+    background-image: url('../../../public/img/projectIMG/forumapp.png');
+    background-size: cover;
+}
 
 
 .projectBox-image img {
