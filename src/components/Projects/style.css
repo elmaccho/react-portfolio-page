@@ -197,13 +197,14 @@
     .projectBox-container .projectBox{
         width: 80vw;
         height: 90vw;
+        padding-bottom: 0;
     }
     .projectBox-text{
         font-size: 4.5vw;
     }
     .seeMoreBox{
-        /* background-color: tomato; */
         height: 28vw;
+        position: relative;
     }
     .projectLink{
         font-size: 4vw;

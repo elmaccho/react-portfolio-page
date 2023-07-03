@@ -97,7 +97,7 @@ export function Project(){
                         </div>
 
                         <div className="projectBox-text">
-                            [NIEUKOŃCZONE] Strona typu forum będzie zawierać bazę danych, profile, postowanie, rangi i wiele innych funkcji.
+                            [NIEUKOŃCZONE] Strona typu forum: będzie zawierać bazę danych, profile, postowanie, rangi i wiele innych funkcji.
                         </div>
 
                         <div className="seeMoreBox">
